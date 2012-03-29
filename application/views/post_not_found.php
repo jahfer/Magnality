@@ -1,0 +1,2 @@
+<h1 class="large-title">Post not found.</h1>
+<p>Sorry, but the post you are looking for appears to have gone missing. Whoops!<br>Why don't you check out what everyone's talking about on the <?=anchor('home', 'home page')?>?

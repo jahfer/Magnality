@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.macrabbit.Espresso.Publisher.PublishServers</key>
+	<array>
+		<dict>
+			<key>ConnectionType</key>
+			<string>com.macrabbit.coreconnection.ftp</string>
+			<key>ESPublishServerStateAskForPasswordWhenConnectingKey</key>
+			<false/>
+			<key>ESPublishServerStateDeriveServerTimeOffsetAutomaticallyKey</key>
+			<false/>
+			<key>ESPublishServerStateHostKey</key>
+			<string>jahfer.com</string>
+			<key>ESPublishServerStateMaximumAllowedConnectionsKey</key>
+			<integer>16</integer>
+			<key>ESPublishServerStateMinimumUpdateTimeDifferenceKey</key>
+			<real>0.0</real>
+			<key>ESPublishServerStateModeKey</key>
+			<integer>3</integer>
+			<key>ESPublishServerStateNameKey</key>
+			<string>Bluehost</string>
+			<key>ESPublishServerStatePathKey</key>
+			<string>public_html/magnality</string>
+			<key>ESPublishServerStatePortKey</key>
+			<integer>21</integer>
+			<key>ESPublishServerStateServerTimeOffsetKey</key>
+			<real>0.0</real>
+			<key>ESPublishServerStateTypeKey</key>
+			<string>FTP</string>
+			<key>ESPublishServerStateUserKey</key>
+			<string>jahferco</string>
+			<key>Name</key>
+			<string>Bluehost</string>
+			<key>SkippedSyncServerPaths</key>
+			<array>
+				<string>/public_html/magnality/css/style.css</string>
+				<string>/public_html/magnality/userfiles</string>
+				<string>/public_html/magnality/css/chat.css</string>
+				<string>/public_html/magnality/js/script.js</string>
+			</array>
+			<key>UUID</key>
+			<string>FAFCE61C-FFDD-4692-AA87-1780439DFC57</string>
+		</dict>
+	</array>
+	<key>com.macrabbit.Espresso.Publisher.PublishServers.Order</key>
+	<array>
+		<integer>0</integer>
+	</array>
+</dict>
+</plist>
