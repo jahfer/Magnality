@@ -6,4 +6,5 @@ You may use any part of the code you wish without any attribution.
 
 # Screenshots
 ![Filters](http://magnality.net/userfiles/FiltersTour.png)
+
 ![My Mag](http://magnality.net/userfiles/MyMagTour.png)
