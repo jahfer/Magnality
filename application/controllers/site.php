@@ -17,7 +17,7 @@ class Site extends CI_Controller {
 		parent::__construct();
 		$this->is_logged_in();
 		$this->user_id = $this->session->userdata('user_id');
-		$this->output->enable_profiler();
+		//$this->output->enable_profiler();
 	}
 	
 	function is_logged_in() {
