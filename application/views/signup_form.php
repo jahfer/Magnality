@@ -24,10 +24,6 @@
 			echo form_error('password2', '<p class="error">', '</p>');
 			echo form_label("Confirm Password", "signup-password2");
 				echo form_password(array('name'=>'password2', 'id' => 'signup-password2', 'class'=>'glow', 'value' => set_value('password2')));
-				
-			echo form_error('invite', '<p class="error">', '</p>');
-			echo form_label("Invite Code", "signup-invite");
-				echo form_input(array('name'=>'invite', 'id' => 'signup-invite', 'class'=>'glow', 'value' => set_value('invite')));
 			
 			echo form_submit(array('name' => 'submit', 'value' => 'Join Magnality', 'class' => 'primary btn'));
 			echo form_close();

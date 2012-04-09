@@ -55,7 +55,6 @@ class Login extends CI_Controller {
 		$this->form_validation->set_rules('email', 		'Email Address', 				'trim|required|valid_email|callback_email_check');
 		$this->form_validation->set_rules('password', 	'Password', 					'trim|required|min_length[4]|max_length[32]');
 		$this->form_validation->set_rules('password2', 	'Password Confirmation', 	'trim|required|matches[password]');
-		$this->form_validation->set_rules('invite', 	   'Invite Code', 				'required|callback_invite_check');
 		
 		if($this->form_validation->run() == FALSE) {
 			$data['main_content'] = 'signup_form';
@@ -82,17 +81,7 @@ class Login extends CI_Controller {
 		} else {	
 			return TRUE;
 		}
-	}
-	
-	function invite_check($code) {			
-		if($code != "NzdK2SZqKkqtpb5P" && $code != "bitdegree" ) {
-			$this->form_validation->set_message('invite_check', 'This is not a valid invite code.');
-			return FALSE;		
-		} else {
-			return TRUE;
-		}
-	}
-	
+	}	
 	
 	function logout() {
 		$this->session->sess_destroy();
