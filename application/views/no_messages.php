@@ -43,7 +43,7 @@
 		$count = count($mag_filters->result());
 		
 		$random_mag_filters = $mag_filters->result();
-		shuffle(&$random_mag_filters);
+		shuffle($random_mag_filters);
 		
 		$i = 1;
 		
