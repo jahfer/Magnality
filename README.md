@@ -5,6 +5,6 @@ This site was developed using [CodeIgniter](http://codeigniter.com) and their li
 
 
 # Screenshots
-![Filters](https://github.com/jahfer/Magnality/raw/master/img/FiltersTour.png
+![Filters](https://github.com/jahfer/Magnality/raw/master/img/FiltersTour.png)
 
 ![My Mag](https://github.com/jahfer/Magnality/raw/master/img/MyMagTour.png)
